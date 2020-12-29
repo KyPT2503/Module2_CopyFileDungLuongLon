@@ -1,0 +1,45 @@
+1/ Ne ngoai le la gi? Hoat dong the nao? Muc dich sinh ra de lam gi?
+	=> ne ngoai le la 1 method se nem ra 1 ngoai le, the hien o phan khai bao
+	=> se nem ra ngoai le, va nhung noi su dung method nay phai handle ngoai le do, neu khong se bao loi
+	=> sinh ra de kiem soat ngoai le, yeu cau viec su dung phai handle duoc ngoai le
+2/ Cac thao tac voi mot doi tuong file la directory
+	1. exists,length,isDirectory,canRead,canWrite,list,isFile,isHidden,getAbsolutePath,lastModifier, setReadOnly, setWritable
+	=> phuong thuc thuc hien cong viec nao? tra ve cai gi?
+3/ cach tao moi 1 file text de ghi
+4/ di kem voi thao tac tao file thi phai co cai gi?
+5/ ghi vao file nhu the nao?
+6/ append vao file the nao?
+7/ cach doc 1 file text nhu da tao ra o tren?
+8/ Bo nho dem buffer la gi? tai sao lai can buffer?neu khong co thi sao? Tao bo nho dem the nao?
+9/ System.in.read() la ham thuc hien viec gi? tra ve cai gi?
+10/ Co cach nao de dua 1 file thanh onlyRead khong
+	=> co, tao 1 doi tuong file su dung filename de tham chieu den file, set thanh setReadOnly()
+	=> khi do: khong the chinh sua truc tiep trong Intellij, ben ngoai sau khi sua thi khi sua van ok, nhung khi luu thi no se bao loi " file already set readonly"
+11/ readLine() cua BufferedReader de lam gi? tra ve cai gi?
+12/ Cao html tu 1 page va in ra? Y nghia tung buoc
+13/ file .scv la gi file gi? luu tru the nao?
+14/ cach de switch tab trong java (ctrl + tab)
+15/ file excel luu du lieu the nao ? tuc la khi sang 1 file text thi no se nhin nhu the nao?
+
+
+==================================================================================================================
+1/ Serialization la gi?
+2/ bytecode tu serialization the hien cai gi cua object ?
+3/ nguoc lai voi Serialization la gi? Dung de lam gi?
+4/ hashCode() co phai la abstract method cua Serialization interface khong?
+5/ ObjectInputStream, ObjectOutputStream la gi? dung de lam gi? cach tao ra no tu ten file?
+6/ mot doi tuong muon ghi vao chuyen thanh 1 mang bytes, roi ghi vao 1 file nhi phan thi lop phai implements interface nao?
+7/ mot doi tuong FileOutputStream co the ghi nhung cai gi vao file?
+8/ tai sao DataOutputStream lai co the ghi nhieu kieu hon, sao khong de thang FileOutputStream ghi luon?
+9/ tao DataOutputStream tu FileOutputStream hoat dong the nao?
+10/ FileOutputStream fileOutputStream = new FileOutputStream(args[0]) : nghia la gi?
+11/ Trinh bay 2 cach de copy file co dung luong lon (dung Files.copy)
+
+
+==================================================================================================================
+/* CAC VIEC PHAI LAM DUOC TRONG NGAY HOM NAY */
+1/ Doc, ghi 1 file text, va sau do in ra
+2/ Cao du lieu tu 1 page, sau do in ra tat ca duoi dang html
+3/ doc, ghi 1 file excel
+4/ ghi mot mang cac so int vao 1 file nhi phan, roi sau do muc ra roi in no len man hinh console (su dung FileInputStream va FileOutputStream)
+5/ ghi cac Object vao 1 file nhi phan, sau do muc ra roi lai in ra tiep (su dung ObjectInputStream va ObjectOutputStream)
